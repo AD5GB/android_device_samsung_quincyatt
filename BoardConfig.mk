@@ -32,6 +32,10 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8660_SURF
 TARGET_OTA_ASSERT_DEVICE := SGH-I717,quincyatt
 TARGET_BOARD_INFO_FILE ?= device/samsung/quincyatt/board-info.txt
 
+# Logging
+TARGET_USES_LOGD := false
+
+
 # Resoultion
 DEVICE_RESOLUTION := 800x1280
 
